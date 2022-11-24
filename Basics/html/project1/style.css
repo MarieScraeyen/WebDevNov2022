@@ -9,7 +9,7 @@ tr{
     margin: 5px;
 }
 th{
-    background-color: rgb(228, 194, 164);
+    background-color: rgb(208, 146, 92);
     margin: 80px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
@@ -17,7 +17,7 @@ th{
     padding: 5px;
 }
 td{
-    background-color: rgb(83, 148, 92);
+    background-color: rgb(54, 128, 64);
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(202, 242, 244);
     text-align: center;
@@ -26,8 +26,9 @@ td{
 }
 
 .pw{
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(230, 207, 122);
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(246, 218, 117);
     font-weight: bold;
 }
 
