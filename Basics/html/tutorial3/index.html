@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- action : "/post.php" 
+        target  : "_blank/_self"
+        method  : ""-->
+    <h1>Form</h1>
+    <form action="/post.php" method="post" target="_blank">
+        <input type="text" placeholder="Enter your username">
+        <br>
+        <input type="password" placeholder="Enter your password">
+        <br>
+        <input type="text" value="info@micro.com" readonly disabled>
+        <input type="button" value="Send it">
+        <br>
+        <input type="checkbox">
+        <label for="">Remember me</label><br>
+
+        <input type="radio" name="gender" >
+        <label for="">Male </label>
+        <input type="radio" name="gender">
+        <label for="">Female </label>
+
+        <br>
+
+        <select name="" id="">
+            <option value="">Admin</option>
+            <option value="">Editor</option>
+            <option value="">User</option>
+        </select>
+        <br>
+        <br>
+        <label for="">Write something</label>
+        <br>
+        <textarea name="" id="" cols="30" rows="5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus saepe suscipit aut ab incidunt quas quaerat, amet ipsam laudantium totam? Voluptate fugiat, quae magni qui dolorem dicta! Doloremque, accusamus incidunt?</textarea>
+        <br>
+        <br>
+        <button>Send it [new]</button>
+    </form>
+</body>
+</html>
